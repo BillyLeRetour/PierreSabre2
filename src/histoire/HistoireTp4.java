@@ -28,12 +28,14 @@ public class HistoireTp4 {
 //		marco.boire();
 		
 //		yaku.direBonjour();
-//		yaku.parler("Tiens, tiens, ne serait-ce pas un faible marchand qui passe par l� ?");
+//		yaku.parler("Tiens, tiens, ne serait-ce pas un faible marchand qui passe par l� ?");
 //		yaku.extorquer(marco);
 		
-		roro.direBonjour();
-		roro.donner(marco);
+//		roro.direBonjour();
+//		roro.donner(marco);
 		
+		roro.parler("Je t'ai retrouvé vermine, tu vas payer pour ce que tu as fait à ce pauvre marchand!");
+		roro.provoquer(yaku);
 		
 	}
 }
