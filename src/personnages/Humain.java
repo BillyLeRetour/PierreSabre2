@@ -4,8 +4,8 @@ public class Humain {
 	private String nom;
 	private String boisson ;
 	private int argent;
-	private int nbConnaissance;
-	private Humain[] memoire;
+	public int nbConnaissance;
+	public Humain[] memoire;
 	private int dernier;
 	
 	public Humain(String nom,String boisson, int argent) {
