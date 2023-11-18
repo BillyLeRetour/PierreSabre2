@@ -18,7 +18,7 @@ public class Traitre extends Samourai{
 			commercant.perdreArgent(argentRanconner);
 			gagnerArgent(argentRanconner);
 			niveauTraitrise+=1;
-			parler("Si tu veaux ma protection contre les Yakuzas, il va falloir payer ! Donne moi" +argentRanconner + "sous ou gare a toi :");
+			parler("Si tu veaux ma protection contre les Yakuzas, il va falloir payer ! Donne moi " +argentRanconner + " sous ou gare a toi :");
 			commercant.parler("Tout de suite grand "+getNom()+".");
 		}else {
 			parler("Mince je ne peux plus ranconner personne sinon un samourai risque de me demasquer");
@@ -34,7 +34,7 @@ public class Traitre extends Samourai{
 			int don=getArgent() * 1/20;
 			String monAmi=ami.getNom();
 			parler("Il faut absolument remonter ma cote de confiance.Je vais faire ami ami avec "+monAmi+".");
-			parler("Bonjour l'ami ! Je voudrais vous aider en vous donnant "+don+"sous.");
+			parler("Bonjour l'ami ! Je voudrais vous aider en vous donnant "+don+" sous.");
 			
 			ami.gagnerArgent(don);
 			perdreArgent(don);
